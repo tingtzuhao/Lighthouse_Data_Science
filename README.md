@@ -4,6 +4,7 @@ This repository contains all notes taken by [Kevin](https://github.com/chilicola
 
 ## Table of Contents
 * [Week 1](/Week_1)
-    * [Day 1](/Week_1/Day_1)
-    * [Day_2](/Week_1/Day_2)
-    * [Day_3](/Week_1/Day_3)
+    * [Day 1](Week_1/Day_1)
+    * [Day_2](Week_1/Day_2)
+    * [Day_3](Week_1/Day_3)
+    * [Day_4](Week_1/Day_4)
