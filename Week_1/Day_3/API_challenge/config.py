@@ -1,0 +1,5 @@
+cons_key='b7zP6P8LiL0Zk3xCr9qYudSwJ'
+cons_secr = 'ZopJHZFfoAYT4wGg5aYJmbX2siFJ0uGoDncjOst9c3OfjMbY5n'
+
+acc_token='1397464488744423424-NrWswrH37SL0VIjaKHQC8gKCPLL8u4'
+acc_secr='s22Rqmz9wlRQf9lc2o9D1lShxLmfFFWD9n9H8jUoyohhX'
