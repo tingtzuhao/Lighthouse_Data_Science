@@ -1,2 +1,0 @@
-tfl_client_id='d8f1a3efe1104ccf92bd0dc985a0c5a8'
-tfl_client_secret='972a422b24a64c2e8b7d4ebcdc50ca10'
