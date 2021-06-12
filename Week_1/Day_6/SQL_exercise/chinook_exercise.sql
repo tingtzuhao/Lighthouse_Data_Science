@@ -27,10 +27,21 @@ Which artists recorded any tracks of the Latin genre?
 */
 SELECT artists.Name FROM tracks
 JOIN albums ON albums.AlbumId = tracks.AlbumId
-JOIN artists ON artists.ArtistId = albums.AlbumId
+JOIN artists ON artists.ArtistId = albums.ArtistId
 JOIN genres ON genres.GenreId = tracks.GenreId
 WHERE genres.Name = 'Latin'
 GROUP BY artists.Name
+
+/* OR */
+SELECT DISTINCT Name
+FROM artists
+WHERE ArtistId IN (SELECT ArtistId
+                    FROM albums
+                    WHERE AlbumId IN ( SELECT AlbumId
+                                        FROM tracks
+                                        WHERE GenreId IN (SELECT GenreId
+                                                            FROM genres
+                                                            WHERE Name = 'Latin')))
 
 /* TASK III
 Which video track has the longest length?
@@ -38,6 +49,14 @@ Which video track has the longest length?
 SELECT tracks.Name, MAX(Milliseconds) FROM tracks
 JOIN media_types ON tracks.MediaTypeId = media_types.MediaTypeId
 WHERE media_types.Name LIKE '%video%'
+
+/* OR */
+SELECT Name, MAX(Milliseconds)
+From tracks
+WHERE MediaTypeId IN (SELECT MediaTypeId
+                        FROM media_types
+                        WHERE Name LIKE '%video%')
+
 
 /* TASK IV
 Find the names of customers who live in the same city as the top employee (The one not managed by anyone).
