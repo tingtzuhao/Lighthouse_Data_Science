@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import twitter
 # ADD OTHER PACKAGES WE WILL NEED
 import requests as re
@@ -29,6 +30,9 @@ def main(FILTER, LANGUAGES, PATH):
 =======
 def main(FILTER, LANGUAGES, PATH):
 >>>>>>> 217dce0bf5a37b2dc12beba9a72847278135c61e
+=======
+def main(FILTER, LANGUAGES, PATH):
+>>>>>>> 217dce0bf5a37b2dc12beba9a72847278135c61e
     with open(PATH, 'a') as f:
         
         # api.GetStreamFilter will return a generator that yields one status
@@ -39,8 +43,13 @@ def main(FILTER, LANGUAGES, PATH):
             f.write('\n')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 main([':)', ':('], LANGUAGES=['en'])
+=======
+
+main(FILTER, LANGUAGES, PATH)
+>>>>>>> 217dce0bf5a37b2dc12beba9a72847278135c61e
 =======
 
 main(FILTER, LANGUAGES, PATH)

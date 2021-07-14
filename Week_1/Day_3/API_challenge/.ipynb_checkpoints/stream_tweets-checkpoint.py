@@ -2,7 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def main(FILTER=[':)', ':('], LANGUAGES=['en'], PATH='output.txt'):
+=======
+def main(FILTER, LANGUAGES, PATH):
+>>>>>>> 217dce0bf5a37b2dc12beba9a72847278135c61e
 =======
 def main(FILTER, LANGUAGES, PATH):
 >>>>>>> 217dce0bf5a37b2dc12beba9a72847278135c61e
@@ -27,7 +31,11 @@ def main(FILTER, LANGUAGES, PATH):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 217dce0bf5a37b2dc12beba9a72847278135c61e
 =======
 
 >>>>>>> 217dce0bf5a37b2dc12beba9a72847278135c61e
