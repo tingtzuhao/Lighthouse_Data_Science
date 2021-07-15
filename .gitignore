@@ -1,4 +1,5 @@
 *config.py
 *.ipynb_checkpoints
 **/data
+**.gz
 lecture_notes
