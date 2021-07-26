@@ -1,5 +1,6 @@
 *config.py
 *.ipynb_checkpoints
+*.vscode
 data
 model
 lecture_notes
