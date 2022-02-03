@@ -39,7 +39,7 @@ Diploma obtained in September 2021
     * [Day 3: Ensembles](/week_05/day_3)
     * [Day 4: SVM and Naive Bayes](/week_05/day_4)
     * [Day 5: Midterm Project](/week_05/day_5)
-* [Week 6: Midterm Project (continue)]
+* Week 6: Midterm Project (continue)
     * Day 6: Amazon Web Services
 * [Week 7: Pipeline and Deployment](/week_07)
     * [Day 1: Pipeline and Model Persistence](/week_07/day_1)
