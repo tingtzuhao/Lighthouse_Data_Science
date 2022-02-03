@@ -4,7 +4,7 @@ This repository contains all notes taken by [Kevin](https://github.com/chilicola
 
 Diploma obtained in September 2021
 
-## Course Content
+## Journey
 * [Week 1: Tech Fundamentals](week_01)
     * [Day 1: Fundamentals of Data Science](week_01/day_1)
     * [Day 2: Programing in Python](week_01/day_2)
